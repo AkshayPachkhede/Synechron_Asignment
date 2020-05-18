@@ -1,0 +1,32 @@
+Request method:	GET
+Request URI:	https://api.ratesapi.io/api/2010-01-12?symbols=&base=asdsd
+Proxy:			<none>
+Request params:	<none>
+Query params:	symbols=
+				base=asdsd
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 400 Bad Request
+Date: Mon, 18 May 2020 04:56:30 GMT
+Content-Type: application/json
+Content-Length: 42
+Connection: keep-alive
+Set-Cookie: __cfduid=d73deeb387a435488a427c799f8c369d51589777790; expires=Wed, 17-Jun-20 04:56:30 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
+Access-Control-Allow-Methods: GET
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CF-Cache-Status: BYPASS
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 5952fdf74a0edd0e-SIN
+cf-request-id: 02c7bd0e8e0000dd0e77ba5200000001
+
+{
+    "error": "Base 'asdsd' is not supported."
+}
